@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "title": "Bonosri Bonsai - A Bonsai Plants Shop.",
+    "desc": "Bonosri Bonsai is a bonsai tree shop web app using MERN stack . Implemented order system , login system, order management, product management review system in dashboard etc.",
+    "features": "Featured products, dynamic reviews from database are shown in home page | Login and Sign up with Email and Password, Google with firebase authentication | Admin panel consisting defferent navigation menu for admin and user. | User can place order, view orders in dashboard, write review with rating star. | admin can manage orders, add or delete product, make a user admin",
+    "live": "https://bonosri-bonsai.web.app/",
+    "github": "https://github.com/JobayerHosen/Bonosri-Bonsai-Plants-Shop-Frontend",
+    "techs": "REACT JS, REACT ROUTER, REACT BOOTSTRAP, CSS, FIREBASE, NodeJS, Express, MongoDB",
+    "img": "https://i.ibb.co/0t2Njcr/image.png"
+  },
+  {
+    "id": 1,
+    "title": "GoTrip | A Tour Event Managing Agency",
+    "desc": "GoTrip is a tour managing agency web app using MERN Stack. providing tour event managing services like booking cottages, hiring boats, managing kayaking, skiing, etc. Here people can find places to go somewhere and book necessary things right on the website by login in and providing information on the booking page.",
+    "features": "Anyone can find places to go somewhere. | place a booking | users need to login to view booking page. | after booking user will be redirected to My Bookings page. | user can delete/cancel booking from My Booking page. | if a admin logins , he will see more options like : Manage Bookings, Add New Event etc. | admin can delete or approve bookings and add new event.",
+    "live": "https://phwc-task.web.app/",
+    "github": "https://github.com/JobayerHosen/GoTrip-Frontend",
+    "techs": "REACT JS, REACT ROUTER, REACT BOOTSTRAP, CSS, FIREBASE, NodeJS, Express, MongoDB",
+    "img": "https://i.ibb.co/W0cTDhV/image.png"
+  },
+  {
+    "id": 2,
+    "title": "MedX - A Unified Portal of Medical Experts.",
+    "desc": "MedX is a Health Care Web Application that works as a unified portal of medical experts. People can find many medical services specially find doctors in any area based on their speciality, Make Appointment with doctors from doctors profile, Live chat and many more.",
+    "features": "In MedX people can find and choose doctor based on their specialty. | View doctor's profile including name, image, speciality , degrees, location etc. | Make Appointment from doctors profile. | Login and Sign up with Email and Password. | Login and Sign up with third party authentication like Google, Github.",
+    "live": "https://medx-jobayer.web.app/home",
+    "github": "https://github.com/JobayerHosen/MedX-Doctors-Portal",
+    "techs": "REACT JS, REACT ROUTER, REACT BOOTSTRAP, CSS, FIREBASE",
+    "img": "https://i.ibb.co/JqqHzbT/image.png"
+  },
+  {
+    "id": 3,
+    "title": "Drag-Drop-File-Upload",
+    "desc": "Drag and Drop File Upload system with vanilla Javascript.",
+    "features": "Drag and Drop File Upload system with vanilla Javascript.",
+    "live": "https://drag-drop-file-upload.netlify.app/",
+    "github": "https://github.com/JobayerHosen/Drag-Drop-File-Upload",
+    "techs": "HTML, CSS, Javascript, TailWind CSS",
+    "img": "https://i.ibb.co/7RnKtb0/image.png"
+  }
+]

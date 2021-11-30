@@ -1,0 +1,102 @@
+.nav {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  width: auto;
+  height: 3rem;
+  border-radius: 1.5rem;
+  background-color: #eee;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+  box-shadow: -10px 2px 50px rgb(0 0 0 / 40%);
+}
+
+.btn-nav {
+  background-color: #fff;
+  font-weight: 900;
+  padding: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  transform: rotate(90deg);
+}
+
+.btn-nav span {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.nav span:first-child {
+  transform: rotate(45deg) translate(75%, -30%);
+}
+.nav span:last-child {
+  transform: rotate(-45deg) translate(-50%, -25%);
+}
+.nav span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav ul {
+  transition: 0.3s;
+}
+
+#nav-btn:checked ~ .nav {
+  width: 3rem;
+  height: 3rem;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+#nav-btn:checked ~ .nav ul {
+  transition: 0.3s;
+  transform: scale(0);
+}
+
+#nav-btn:checked ~ .nav span:first-child {
+  transform: rotate(0deg) translate(0, 0);
+}
+#nav-btn:checked ~ .nav span:last-child {
+  transform: rotate(0deg) translate(0, 0);
+}
+#nav-btn:checked ~ .nav span:nth-child(2) {
+  opacity: 1;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+  font-weight: bold;
+}
+.nav-menu li {
+  padding: 0.6rem 0.6rem 0 0.4rem;
+}
+.nav-menu a {
+  color: #000;
+}
+.nav-menu .active {
+  color: #69b513;
+}
+
+@media screen and (max-width: 576px) {
+  .nav {
+    width: 3rem;
+    height: auto;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    padding: 0;
+  }
+  .nav-menu li {
+    margin: 0.5rem;
+  }
+}

@@ -1,0 +1,37 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+.intro {
+  background-image: url("../../images/cover-07.jpeg");
+  background-size: cover;
+  background-position-x: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.texts {
+  position: relative;
+  top: 18vh;
+}
+
+.name {
+  font-size: 4rem;
+  color: #fff;
+  font-family: "Merienda", cursive;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 576px) {
+  .name {
+    font-size: 3rem;
+  }
+}

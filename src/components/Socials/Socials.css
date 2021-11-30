@@ -1,0 +1,44 @@
+.socials {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  width: auto;
+  height: 3rem;
+  border-radius: 1.5rem;
+  background-color: #eee;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.socials-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+  font-weight: bold;
+}
+.socials-menu li {
+  padding: 0.6rem 0.5rem 0 0.4rem;
+}
+.socials-menu a {
+  color: #000;
+}
+.socials-menu .active {
+  color: darkslateblue;
+}
+
+@media screen and (max-width: 576px) {
+  .socials {
+    width: 3rem;
+    height: auto;
+  }
+
+  .socials-menu {
+    flex-direction: column;
+    padding: 0;
+  }
+  .socials-menu li {
+    margin: 0.5rem;
+  }
+}
