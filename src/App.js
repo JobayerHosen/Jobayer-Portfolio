@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Blog from "./components/Blog/Blog";
+import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/blog">
             <Blog />
+          </Route>
+          <Route path="/project-details/:id">
+            <ProjectDetails />
           </Route>
           <Route path="*">
             <h1 className="alert alert-danger"> 404 | Page Not Found</h1>

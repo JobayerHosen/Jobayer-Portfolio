@@ -7,7 +7,13 @@
     "live": "https://bonosri-bonsai.web.app/",
     "github": "https://github.com/JobayerHosen/Bonosri-Bonsai-Plants-Shop-Frontend",
     "techs": "REACT JS, REACT ROUTER, REACT BOOTSTRAP, CSS, FIREBASE, NodeJS, Express, MongoDB",
-    "img": "https://i.ibb.co/0t2Njcr/image.png"
+    "img": [
+      "https://i.ibb.co/0t2Njcr/image.png",
+      "https://i.ibb.co/Wz5HRRy/image.png",
+      "https://i.ibb.co/bKJ1YyY/image.png",
+      "https://i.ibb.co/TYFGz8s/image.png",
+      "https://i.ibb.co/mXz8wy9/image.png"
+    ]
   },
   {
     "id": 1,
@@ -17,7 +23,11 @@
     "live": "https://phwc-task.web.app/",
     "github": "https://github.com/JobayerHosen/GoTrip-Frontend",
     "techs": "REACT JS, REACT ROUTER, REACT BOOTSTRAP, CSS, FIREBASE, NodeJS, Express, MongoDB",
-    "img": "https://i.ibb.co/W0cTDhV/image.png"
+    "img": [
+      "https://i.ibb.co/W0cTDhV/image.png",
+      "https://i.ibb.co/pX8Sw6j/image.png",
+      "https://i.ibb.co/SvNxtjW/image.png"
+    ]
   },
   {
     "id": 2,
@@ -27,7 +37,11 @@
     "live": "https://medx-jobayer.web.app/home",
     "github": "https://github.com/JobayerHosen/MedX-Doctors-Portal",
     "techs": "REACT JS, REACT ROUTER, REACT BOOTSTRAP, CSS, FIREBASE",
-    "img": "https://i.ibb.co/JqqHzbT/image.png"
+    "img": [
+      "https://i.ibb.co/JqqHzbT/image.png",
+      "https://i.ibb.co/WBytZXJ/image.png",
+      "https://i.ibb.co/7rf3wbL/image.png"
+    ]
   },
   {
     "id": 3,
@@ -37,6 +51,6 @@
     "live": "https://drag-drop-file-upload.netlify.app/",
     "github": "https://github.com/JobayerHosen/Drag-Drop-File-Upload",
     "techs": "HTML, CSS, Javascript, TailWind CSS",
-    "img": "https://i.ibb.co/7RnKtb0/image.png"
+    "img": ["https://i.ibb.co/7RnKtb0/image.png"]
   }
 ]

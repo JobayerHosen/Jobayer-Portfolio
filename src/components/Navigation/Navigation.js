@@ -5,7 +5,7 @@ import "./Navigation.css";
 const Navigation = () => {
   return (
     <>
-      <input id="nav-btn" hidden type="checkbox" />
+      <input id="nav-btn" hidden defaultChecked type="checkbox" />
       <nav className="nav">
         <label className="btn-nav" htmlFor="nav-btn">
           <span>|</span>
