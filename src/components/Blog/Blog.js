@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row, Button, Form } from "react-bootstrap";
-import propic from "../../images/pp-faceretouch_sq.jpg";
 import { NavLink } from "react-router-dom";
 
 const Blog = () => {

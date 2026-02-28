@@ -1,0 +1,67 @@
+{
+  "title": "Get in Touch",
+  "subtitle": "Have a project in mind or want to discuss opportunities? Feel free to reach out!",
+  "info": {
+    "title": "Let's Connect",
+    "text": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision."
+  },
+  "contactDetails": [
+    {
+      "label": "Email",
+      "value": "jobayerhosen.swe@gmail.com",
+      "link": "mailto:jobayerhosen.swe@gmail.com"
+    },
+    {
+      "label": "Phone",
+      "value": "+88 01890600245",
+      "link": "tel:+8801890600245"
+    },
+    {
+      "label": "Location",
+      "value": "Chittagong, Bangladesh",
+      "link": null
+    }
+  ],
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/JobayerHosen"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/jobayer-hosen"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://jobayer-hosen.web.app"
+    }
+  ],
+  "form": {
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Your name",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "placeholder": "your@email.com",
+        "required": true
+      },
+      {
+        "name": "message",
+        "label": "Message",
+        "type": "textarea",
+        "placeholder": "Tell me about your project or opportunity...",
+        "required": true,
+        "rows": 5
+      }
+    ],
+    "submitText": "Send Message",
+    "recipientEmail": "jobayerhosen.swe@gmail.com"
+  }
+}

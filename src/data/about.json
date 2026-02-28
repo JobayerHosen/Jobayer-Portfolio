@@ -1,0 +1,65 @@
+{
+  "personal": {
+    "name": "Jobayer Hosen",
+    "title": "Frontend Engineer",
+    "intro": "Frontend Engineer specializing in building scalable SaaS platforms, marketplace systems, and performance-driven dashboards using React and TypeScript. Experienced in architecting production-grade applications with real-time data flows, complex role-based systems, and transactional workflows.",
+    "description": "I build cross-platform applications using React Native and Next.js with a strong focus on clean architecture, performance optimization, and AI-assisted development. I'm passionate about writing production-level code that delivers exceptional user experiences.",
+    "image": "../../images/profile.jpg"
+  },
+  "highlights": [
+    { "number": "4+", "label": "Years Experience" },
+    { "number": "15K+", "label": "Monthly Users" },
+    { "number": "100%", "label": "TypeScript" },
+    { "number": "30%", "label": "AI-Accelerated" }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": ["JavaScript", "TypeScript", "React", "React Native", "Expo", "Next.js", "Tailwind CSS"]
+    },
+    {
+      "category": "State & Data",
+      "items": ["TanStack Query", "Zustand", "MobX", "Redux Toolkit", "Axios", "REST APIs"]
+    },
+    {
+      "category": "Monitoring",
+      "items": ["Firebase", "Sentry", "OneSignal"]
+    },
+    {
+      "category": "Tools",
+      "items": ["Git", "GitHub", "Docker", "Vercel", "VS Code", "Claude Code"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Findit",
+      "position": "Senior Software Engineer (Frontend)",
+      "period": "July 2025 - Present",
+      "location": "Indonesia (Remote)",
+      "description": "Own and evolve the Findit marketplace frontend. Implemented scalable multi-product cart and checkout system with integrated payment gateway. Solely led and developed BaruLagi (sustainable fashion marketplace) frontend from Figma to production-grade Next.js platform."
+    },
+    {
+      "company": "GrainX",
+      "position": "Senior React Native Developer (Contract)",
+      "period": "May 2025 - Oct 2025",
+      "location": "Australia (Remote)",
+      "description": "Built dual-sided agricultural marketplace connecting farmers and buyers across mobile app (Expo, React Native) and web (Next.js). Designed multi-method JWT-based authentication and implemented complex grain trading workflows with offer/bid creation and negotiation."
+    },
+    {
+      "company": "HealthOS Ltd",
+      "position": "Software Engineer (Frontend)",
+      "period": "Feb 2022 - June 2025",
+      "location": "Dhaka, Bangladesh",
+      "description": "Revamped and maintained cross-platform e-commerce application used by 15,000+ pharmacy owners monthly. Designed and developed delivery management app with geo-location tracking and real-time status updates. Contributed to multiple internal dashboards automating procurement, inventory, and reporting."
+    }
+  ],
+  "education": {
+    "degree": "Diploma in Computer Technology",
+    "institution": "Chittagong Polytechnic Institute",
+    "period": "2017 - 2021"
+  },
+  "contact": {
+    " buttonText": "Get in Touch",
+    "url": "/contact"
+  }
+}

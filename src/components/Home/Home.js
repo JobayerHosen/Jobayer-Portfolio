@@ -1,23 +1,104 @@
-import React from "react";
-import { Button } from "react-bootstrap";
+import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
+import { Download, ArrowRight } from "lucide-react";
+import { FaReact } from "react-icons/fa";
+import { SiNextdotjs, SiReact, SiExpo, SiTypescript } from "react-icons/si";
 import Socials from "../Socials/Socials";
 import "./Home.css";
+import homeData from "../../data/home.json";
+
+const techIcons = {
+  react: <FaReact size={24} />,
+  nextjs: <SiNextdotjs size={24} />,
+  "react-native": <SiReact size={24} />,
+  expo: <SiExpo size={24} />,
+  typescript: <SiTypescript size={24} />
+};
 
 const Home = () => {
+  const [home, setHome] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch("https://jobayerhosen.github.io/files/home.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setHome(data);
+        setLoading(false);
+      })
+      .catch(() => {
+        setLoading(false);
+      });
+  }, []);
+
+  const displayHome = home || homeData;
+  const { hero } = displayHome;
+
   return (
     <div className="home">
+      <div className="hero-background"></div>
+      <div className="hero-overlay"></div>
+
       <Socials />
 
-      <div className="intro">
-        <div className="texts">
-          <h1 className="name text-cursive mb-0">Jobayer Hosen</h1>
-          <h3 className="role mt-0 mb-5">Fron-End Developer</h3>
-          <a href="https://drive.google.com/file/d/1HoUJcMJzzXJ5hjYd_gAChfHb5BzYVob_/view?usp=sharing" target="_blank">
-            <Button variant="success" className="bg-green fw-bold rounded-pill">
-              Download Resume
-            </Button>
-          </a>
+      <div className="hero-content">
+        <div>
+          <div className="hero-badge">
+            <span className="badge-dot"></span>
+            {hero.badge.text}
+          </div>
+
+          <h1 className="hero-title">
+            <span className="hero-greeting">{hero.greeting}</span>
+            <span className="hero-name">{hero.name}</span>
+          </h1>
+
+          <p className="hero-subtitle">{hero.summary}</p>
+
+          <div className="hero-actions">
+            {hero.actions.map((action, index) => {
+              const isExternal = action.url.startsWith("http");
+              const ButtonComponent = isExternal ? "a" : NavLink;
+              const buttonProps = isExternal
+                ? { href: action.url, target: "_blank", rel: "noopener noreferrer" }
+                : { to: action.url };
+
+              return (
+                <ButtonComponent
+                  key={index}
+                  {...buttonProps}
+                  className={`btn-${action.type}`}
+                >
+                  <span>{action.label}</span>
+                  {action.type === "primary" ? (
+                    <Download size={20} />
+                  ) : (
+                    <ArrowRight size={20} />
+                  )}
+                </ButtonComponent>
+              );
+            })}
+          </div>
+
+          <div className="hero-tech-stack">
+            {hero.techStack.map((tech, index) => (
+              <React.Fragment key={index}>
+                <div className="tech-item">
+                  <div className="tech-icon">{techIcons[tech.icon]}</div>
+                  <span className="tech-name">{tech.name}</span>
+                </div>
+                {index < hero.techStack.length - 1 && <div className="tech-divider"></div>}
+              </React.Fragment>
+            ))}
+          </div>
         </div>
+
+        {/* <div className="hero-scroll">
+          <div className="scroll-indicator">
+            <span>{hero.scrollText}</span>
+            <div className="scroll-arrow"></div>
+          </div>
+        </div> */}
       </div>
     </div>
   );
