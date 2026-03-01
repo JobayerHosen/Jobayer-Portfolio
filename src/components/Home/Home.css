@@ -321,9 +321,11 @@
   .hero-name {
     font-size: clamp(1.5rem, 8vw, 2rem);
   }
+
   .hero-actions .btn {
     flex: 1 1 0;
     white-space: nowrap;
+    padding: .75rem 1.2rem;
   }
   
 
@@ -387,6 +389,7 @@
 
   .hero-actions .btn {
     white-space: nowrap;
+    padding: .75rem 1.25rem;
   }
   
   .btn-primary,
