@@ -73,7 +73,7 @@ const Home = () => {
                 : { to: action.url };
 
               return (
-                <ButtonComponent key={index} {...buttonProps} className={`btn-${action.type}`}>
+                <ButtonComponent key={index} {...buttonProps} className={`btn btn-${action.type}`}>
                   <span>{action.label}</span>
                   {action.type === "primary" ? <Download size={20} /> : <ArrowRight size={20} />}
                 </ButtonComponent>

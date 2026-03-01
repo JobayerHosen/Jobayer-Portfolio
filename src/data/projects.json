@@ -1,6 +1,72 @@
 [
   {
-    "id": 0,
+    "id": 1,
+    "title": "GrainX - Grain Marketplace",
+    "desc": "Built a dual-sided agricultural marketplace connecting farmers and buyers across mobile app (Expo, React Native) and web (Next.js). Designed complex grain trading workflows with offer/bid creation and counter-offer negotiation.",
+    "features": "Multi-method JWT-based authentication system (Google, Apple, SMS/WhatsApp OTP) | Centralized API architecture with automatic token rotation using Axios interceptors | Complex grain trading workflows including offer/bid creation, counter-offer negotiation, and checkout flows | Integrated production-grade observability with Firebase Analytics, Crashlytics, and OneSignal push notifications | Engineered feature-based architecture and file-based routing for scalability | 100% TypeScript coverage with strict type safety | 40+ reusable components with consistent design patterns | Zustand state management with Zod schema validation | TanStack Query implementation with optimistic updates, infinite pagination, cache invalidation, and real-time dashboard synchronization",
+    "live": "https://play.google.com/store/apps/details?id=com.grainx.mobile",
+    "github": "https://www.notion.so/GrainX-Mobile-Technical-Report-315c29e8f9e68005983ad2942a5b21c8?source=copy_link",
+    "techs": "React Native, Expo, Next.js, TypeScript, TanStack Query, Zustand, Zod, Firebase, OneSignal",
+    "img": [
+      "https://i.ibb.co.com/prLGZXg3/grianx-onboard.jpg",
+      "https://i.ibb.co.com/fdCwtyHd/grianx-methods.jpg",
+      "https://i.ibb.co.com/WNZdmQrc/grianx-otp.jpg",
+      "https://i.ibb.co.com/rR5PnjtC/image.png",
+      "https://i.ibb.co.com/Jwy4Y3pg/image.png",
+      "https://i.ibb.co.com/k2zymVSj/image.png",
+      "https://i.ibb.co.com/1fGrXFc5/image.png",
+      "https://i.ibb.co.com/gbSCz6mn/image.png",
+      "https://i.ibb.co.com/cSYHg7mM/image.png",
+      "https://i.ibb.co.com/M53yx9Zc/image.png",
+      "https://i.ibb.co.com/Zp0WHL4x/image.png"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "University RMS Portal",
+    "desc": "Building a scalable university management system with reusable components, modular architecture, and role-based access control for a renowned university.",
+    "features": "Secure OTP-based JWT authentication system with role-based access control | Dynamic permission-driven menus for admins, teachers, exam controllers, and students | Developed full CRUD modules for academic entities including Semester, Department, Faculty, Course, and Session | Bulk student import functionality via Excel upload with validation | Exam workflows including examiner assignment, mark entry, and multi-level approval flows | Improvement exam processing with automatic grade calculation | Dynamic mark sheet and report generation with PDF export | Modular architecture with reusable components for maintainability",
+    "live": "#",
+    "github": "https://www.notion.so/Unisphere-Technical-Details-315c29e8f9e6806d86a7fe295ca78a9f?source=copy_link",
+    "techs": "Next.js, TypeScript, NextAuth, React Hook Form, ExcelJS, Role-based permissions",
+    "img": [
+      "https://i.ibb.co.com/XZxc0DGc/sstu-teachers-dark.png",
+      "https://i.ibb.co.com/7xCXq7Rj/sstu-login.png",
+      "https://i.ibb.co.com/vvjNsvrZ/sstu-otp.png",
+      "https://i.ibb.co.com/Z1kwP2SC/context-menu.png",
+      "https://i.ibb.co.com/WpsXbxYq/sstu-form-dark.png",
+      "https://i.ibb.co.com/1YZspd8W/sstu-details-edu-dark.png",
+      "https://i.ibb.co.com/jPRVQ51S/sstu-eduadd.png",
+      "https://i.ibb.co.com/r2kMZz8m/sstu-richtext-dark.png",
+      "https://i.ibb.co.com/bjSPMgQx/sstu-markentry-dark.png"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "MedX - A Unified Portal of Medical Experts.",
+    "desc": "MedX is a Health Care Web Application that works as a unified portal of medical experts. People can find many medical services specially find doctors in any area based on their speciality, Make Appointment with doctors from doctors profile, Live chat and many more.",
+    "features": "In MedX people can find and choose doctor based on their specialty. | View doctor's profile including name, image, speciality , degrees, location etc. | Make Appointment from doctors profile. | Login and Sign up with Email and Password. | Login and Sign up with third party authentication like Google, Github.",
+    "live": "https://medx-jobayer.web.app/home",
+    "github": "https://github.com/JobayerHosen/MedX-Doctors-Portal",
+    "techs": "REACT JS, REACT ROUTER, REACT BOOTSTRAP, CSS, FIREBASE",
+    "img": [
+      "https://i.ibb.co/JqqHzbT/image.png",
+      "https://i.ibb.co/WBytZXJ/image.png",
+      "https://i.ibb.co/7rf3wbL/image.png"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Admin Panel Dashboard - B2B Store",
+    "desc": "Established a scalable project structure using Redux Toolkit and modular components for managing products, customers, and orders in a B2B e-commerce context.",
+    "features": "Scalable project structure using Redux Toolkit with modular component architecture | Product management with full CRUD operations and inventory tracking | Customer management with detailed profiles and order history | Order management with status tracking and filtering | Integrated API data via slice reducers with optimized data fetching | Reusable UI component library including product lists, order lists, and detailed views | Interactive dashboard with statistics and data visualizations using Recharts | Enhanced UX with loading states and skeleton screens | Formatted data display using Moment.js for dates and Millify for numbers | Deployed as performant single-page application on Netlify",
+    "live": "https://b2b-store-admin.netlify.app/",
+    "github": "https://github.com/JobayerHosen/B2B-Store-Admin",
+    "techs": "React, React-Router-Dom, React-Bootstrap, Redux Toolkit, Axios, Recharts, Moment.js",
+    "img": ["https://i.ibb.co.com/7JB4q2kN/Screenshot-2026-03-01-072601.png"]
+  },
+  {
+    "id": 5,
     "title": "Bonosri Bonsai - A Bonsai Plants Shop.",
     "desc": "Bonosri Bonsai is a bonsai tree shop web app using MERN stack . Implemented order system , login system, order management, product management review system in dashboard etc.",
     "features": "Featured products, dynamic reviews from database are shown in home page | Login and Sign up with Email and Password, Google with firebase authentication | Admin panel consisting defferent navigation menu for admin and user. | User can place order, view orders in dashboard, write review with rating star. | admin can manage orders, add or delete product, make a user admin",
@@ -16,7 +82,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 6,
     "title": "GoTrip | A Tour Event Managing Agency",
     "desc": "GoTrip is a tour managing agency web app using MERN Stack. providing tour event managing services like booking cottages, hiring boats, managing kayaking, skiing, etc. Here people can find places to go somewhere and book necessary things right on the website by login in and providing information on the booking page.",
     "features": "Anyone can find places to go somewhere. | place a booking | users need to login to view booking page. | after booking user will be redirected to My Bookings page. | user can delete/cancel booking from My Booking page. | if a admin logins , he will see more options like : Manage Bookings, Add New Event etc. | admin can delete or approve bookings and add new event.",
@@ -30,21 +96,7 @@
     ]
   },
   {
-    "id": 2,
-    "title": "MedX - A Unified Portal of Medical Experts.",
-    "desc": "MedX is a Health Care Web Application that works as a unified portal of medical experts. People can find many medical services specially find doctors in any area based on their speciality, Make Appointment with doctors from doctors profile, Live chat and many more.",
-    "features": "In MedX people can find and choose doctor based on their specialty. | View doctor's profile including name, image, speciality , degrees, location etc. | Make Appointment from doctors profile. | Login and Sign up with Email and Password. | Login and Sign up with third party authentication like Google, Github.",
-    "live": "https://medx-jobayer.web.app/home",
-    "github": "https://github.com/JobayerHosen/MedX-Doctors-Portal",
-    "techs": "REACT JS, REACT ROUTER, REACT BOOTSTRAP, CSS, FIREBASE",
-    "img": [
-      "https://i.ibb.co/JqqHzbT/image.png",
-      "https://i.ibb.co/WBytZXJ/image.png",
-      "https://i.ibb.co/7rf3wbL/image.png"
-    ]
-  },
-  {
-    "id": 3,
+    "id": 7,
     "title": "Drag-Drop-File-Upload",
     "desc": "Drag and Drop File Upload system with vanilla Javascript.",
     "features": "Drag and Drop File Upload system with vanilla Javascript.",

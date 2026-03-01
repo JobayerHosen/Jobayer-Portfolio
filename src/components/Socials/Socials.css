@@ -23,8 +23,8 @@
 }
 
 .social-link {
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,8 +138,8 @@
   }
 
   .social-link {
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
   }
 
   .social-link svg {
@@ -156,8 +156,8 @@
   }
 
   .social-link {
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
   }
 
   .social-link svg {
@@ -169,19 +169,18 @@
 /* Mobile Portrait (max 479px) */
 @media (max-width: 479px) {
   .socials {
-    top: auto;
-    bottom: 1rem;
+    top: 1rem;
     right: 1rem;
   }
 
   .socials-list {
-    border-radius: 100px;
+    border-radius: 16px;
     padding: 0.5rem;
   }
 
   .social-link {
-    width: 34px;
-    height: 34px;
+    width: 28px;
+    height: 28px;
   }
 
   .social-link svg {
