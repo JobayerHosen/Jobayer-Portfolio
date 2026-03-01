@@ -33,8 +33,8 @@ const About = () => {
 
           <Row className="about-hero">
             <Col xs={12} md={5} className="about-image-col">
-              <div className="about-image-wrapper">
-                {personal?.image ? <Image src={personal.image} alt="Jobayer Hosen" /> : <></>}
+              <div className={`about-image-wrapper ${loading ? "loading" : ""}`}>
+                {personal?.image ? <Image src={personal.image} /> : <></>}
                 <div className="about-image-overlay"></div>
               </div>
             </Col>

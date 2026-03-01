@@ -20,15 +20,27 @@
   margin-bottom: 0;
 }
 
+
+
 .about-image-wrapper {
   position: relative;
   border-radius: 24px;
   overflow: hidden;
   border: 2px solid var(--border-color);
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1 / 1.1;
   max-width: 400px;
-  background-image: url("../../images/profile.jpg");
-  background-size: contain;
+  background-image: url("../../images/profile.png");
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.1s 2s ease;
+}
+
+.about-image-wrapper.loading {
+  background: #1fbc59;
+  animation: pulse 1.5s  infinite;
+  background-size: 0% 0%;
 }
 
 .about-image-wrapper img {
