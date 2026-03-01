@@ -9,11 +9,11 @@
     "title": "Frontend Engineer",
     "summary": "Frontend Engineer specializing in building scalable dashboard, marketplace systems using React and TypeScript. Experienced in architecting production-grade applications with real-time data flows, complex role-based systems, and transactional workflows. Experienced building cross-platform applications using React-Native and Next.js. Strong focus on clean architecture, performance optimization, and AI-assisted development with production-level code quality.",
     "techStack": [
+      { "name": "TypeScript", "icon": "typescript" },
       { "name": "React", "icon": "react" },
       { "name": "Next.js", "icon": "nextjs" },
-      { "name": "React Native", "icon": "react-native" },
       { "name": "Expo", "icon": "expo" },
-      { "name": "TypeScript", "icon": "typescript" }
+      { "name": "Tailwind CSS", "icon": "tailwind" }
     ],
     "actions": [
       {

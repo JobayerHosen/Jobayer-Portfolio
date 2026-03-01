@@ -2,17 +2,26 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Download, ArrowRight } from "lucide-react";
 import { FaReact } from "react-icons/fa";
-import { SiNextdotjs, SiReact, SiExpo, SiTypescript } from "react-icons/si";
+import { SiReact, SiExpo } from "react-icons/si";
+import { RiJavascriptFill, RiNextjsLine } from "react-icons/ri";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaDocker } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 import Socials from "../Socials/Socials";
 import "./Home.css";
 import homeData from "../../data/home.json";
+import { TbBrandTypescript } from "react-icons/tb";
 
 const techIcons = {
   react: <FaReact size={24} />,
-  nextjs: <SiNextdotjs size={24} />,
+  nextjs: <RiNextjsLine size={24} />,
   "react-native": <SiReact size={24} />,
   expo: <SiExpo size={24} />,
-  typescript: <SiTypescript size={24} />
+  typescript: <TbBrandTypescript size={24} />,
+  javascript: <RiJavascriptFill size={24} />,
+  tailwind: <RiTailwindCssFill size={24} />,
+  docker: <FaDocker size={24} />,
+  github: <FaGithub size={24} />,
 };
 
 const Home = () => {
@@ -64,17 +73,9 @@ const Home = () => {
                 : { to: action.url };
 
               return (
-                <ButtonComponent
-                  key={index}
-                  {...buttonProps}
-                  className={`btn-${action.type}`}
-                >
+                <ButtonComponent key={index} {...buttonProps} className={`btn-${action.type}`}>
                   <span>{action.label}</span>
-                  {action.type === "primary" ? (
-                    <Download size={20} />
-                  ) : (
-                    <ArrowRight size={20} />
-                  )}
+                  {action.type === "primary" ? <Download size={20} /> : <ArrowRight size={20} />}
                 </ButtonComponent>
               );
             })}
